@@ -1,0 +1,19 @@
+{
+  "name": "visualnuts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest",
+    "exec-1": "node dist/exec-1/index.js",
+    "exec-2": "node dist/exec-2/index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "jest": "^28.1.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}
